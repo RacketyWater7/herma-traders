@@ -3,7 +3,7 @@ import { Button } from "../common";
 const Search = () => {
   return (
     <div
-      className="p-10 pt-20 bg-[url(/src/assets/toyota.jpg)] w-full h-[600px] md:h-[400px] bg-cover bg-center
+      className="p-10 pt-20 bg-[url(/assets/toyota.jpg)] w-full h-[600px] md:h-[400px] bg-cover bg-center
       "
     >
       {/* add a typography */}

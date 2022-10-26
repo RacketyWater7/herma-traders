@@ -8,74 +8,74 @@ const Home = () => {
     {
       id: "1",
       name: "Luxury",
-      image_path: "/src/assets/luxury.png",
+      image_path: "/assets/luxury.png",
     },
     {
       id: "2",
       name: "Sports",
-      image_path: "/src/assets/sports.jpg",
+      image_path: "/assets/sports.jpg",
     },
     {
       id: "3",
       name: "Muscles",
-      image_path: "/src/assets/muscles.webp",
+      image_path: "/assets/muscles.webp",
     },
     {
       id: "4",
       name: "Motorbikes",
-      image_path: "/src/assets/motorbike.jpg",
+      image_path: "/assets/motorbike.jpg",
     },
     {
       id: "5",
       name: "SUVs",
-      image_path: "/src/assets/suv.jpg",
+      image_path: "/assets/suv.jpg",
     },
     {
       id: "6",
       name: "Minivan",
-      image_path: "/src/assets/minivan.jpg",
+      image_path: "/assets/minivan.jpg",
     },
   ];
   const makesList: ICategory[] = [
     {
       id: "1",
       name: "",
-      image_path: "/src/assets/makes/bmw.png",
+      image_path: "/assets/makes/bmw.png",
     },
     // {
     //   id: "2",
     //   name: "",
-    //   image_path: "/src/assets/makes/cadilac.webp",
+    //   image_path: "/assets/makes/cadilac.webp",
     // },
     {
       id: "3",
       name: "",
-      image_path: "/src/assets/makes/Chevrolet.png",
+      image_path: "/assets/makes/Chevrolet.png",
     },
     {
       id: "4",
       name: "",
-      image_path: "/src/assets/makes/ferrari.png",
+      image_path: "/assets/makes/ferrari.png",
     },
     {
       id: "5",
       name: "",
-      image_path: "/src/assets/makes/ford.png",
+      image_path: "/assets/makes/ford.png",
     },
     {
       id: "6",
       name: "",
-      image_path: "/src/assets/makes/mercedes.png",
+      image_path: "/assets/makes/mercedes.png",
     },
     {
       id: "7",
       name: "",
-      image_path: "/src/assets/makes/pontiac.png",
+      image_path: "/assets/makes/pontiac.png",
     },
     {
       id: "8",
       name: "",
-      image_path: "/src/assets/makes/porsche.png",
+      image_path: "/assets/makes/porsche.png",
     },
   ];
   return (
