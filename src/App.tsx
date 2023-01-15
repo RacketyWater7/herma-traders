@@ -1,8 +1,8 @@
-import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import { Header, Footer } from "./components/common";
 import { Home } from "./pages";
 import "./App.css";
+import Details from "./pages/Details";
 
 export interface ICategory {
   id: string | string[];
@@ -18,6 +18,7 @@ function App() {
         <div className="h-full">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/details" element={<Details />} />
           </Routes>
         </div>
         <Footer />

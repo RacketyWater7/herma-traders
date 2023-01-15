@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 const CarsGrid = () => {
+  const navigate = useNavigate();
   const carsData = [
     {
       id: "1",
@@ -77,7 +80,11 @@ const CarsGrid = () => {
         {/* card */}
         {carsData.map((car) => {
           return (
-            <div key={car.id} className="flex justify-center">
+            <div
+              key={car.id}
+              className="flex justify-center"
+              onClick={() => navigate("/details")}
+            >
               <div className="flex flex-col w-[279px] h-[314px] rounded-md shadow-md hover:shadow-xl cursor-pointer">
                 <div className="w-[279px] h-[185px]">
                   <img

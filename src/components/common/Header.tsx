@@ -1,4 +1,6 @@
+import { useNavigate } from "react-router-dom";
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <nav
       className="
@@ -79,8 +81,8 @@ const Header = () => {
           <ul className="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
             <li className="nav-item p-2">
               <a
-                className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
-                href="#"
+                className="nav-link cursor-pointer text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+                onClick={() => navigate("/")}
               >
                 Home
               </a>
